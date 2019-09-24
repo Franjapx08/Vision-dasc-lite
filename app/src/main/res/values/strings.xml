@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">VSION_Lite</string>
+    <string name="title_home">Ubicación</string>
+    <string name="title_dashboard">Profesores</string>
+    <string name="title_notifications">Instalaciones</string>
+    <string name="perfil">Perfil</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="lenguajes">
+        <item>Selecciona el día</item>
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miercoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+    </string-array>
+
+    <string-array name="semestre">
+        <item>Selecciona el semestre</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="carrera">
+        <item>Selecciona la carrera</item>
+        <item>IDS - T.V</item>
+        <item>IDS - T.M</item>
+        <item>ITC - T.V</item>
+        <item>ITC - T.M</item>
+        <item>LATI-TSUATI - T.M</item>
+    </string-array>
+
+    <string-array name="turno">
+        <item>Selecciona el turno</item>
+        <item>V</item>
+        <item>M</item>
+    </string-array>
+
+    <string-array name="sexo">
+        <item>Selecciona tu sexo</item>
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+
+
+    <string-array name="datosUs">
+        <item>nombre_key</item>
+        <item>id_key</item>
+        <item>correo_key</item>
+        <item>sexo_key</item>
+        <item>carrera_key</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>

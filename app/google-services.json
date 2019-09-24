@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1095430757784",
+    "firebase_url": "https://visionlite-39d6e.firebaseio.com",
+    "project_id": "visionlite-39d6e",
+    "storage_bucket": "visionlite-39d6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1095430757784:android:bc598c98ee80c7db",
+        "android_client_info": {
+          "package_name": "com.example.vsion_lite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1095430757784-il44v143jj9apuhi4h26ssh08gm8r9cl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vsion_lite",
+            "certificate_hash": "75648ba4df6d34b0df156d6285be3b2d1042ac60"
+          }
+        },
+        {
+          "client_id": "1095430757784-09tofoeiclr81cpfmk3pp1qtogmd31bk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC08J5AdCRTCHnB2RH8wjny8jPTse1gGBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1095430757784-09tofoeiclr81cpfmk3pp1qtogmd31bk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

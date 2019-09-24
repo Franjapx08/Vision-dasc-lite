@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/back">
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/separador">
+
+    </View>
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardPreventCornerOverlap="false"
+        android:id="@+id/cv_edi">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/person_photo_edi"
+                android:layout_width="100dp"
+                android:layout_height="85dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:paddingLeft="5dp"
+                android:src="@drawable/userteacher1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/ename"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Name edificio"
+                    android:textColor="@color/wordBlack"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/contact"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="Ubicación"
+                        android:textColor="@color/wordBlack"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/icon_contact"
+                        android:layout_width="52dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/ic_location_on_black_24dp"
+                        android:textColor="@color/wordCarte"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/eubi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Ubicacion"
+                    android:textColor="@color/wordCarte"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <!-- <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal">
+
+                     <TextView
+                         android:id="@+id/clas"
+                         android:layout_width="141dp"
+                         android:layout_height="22dp"
+                         android:layout_marginTop="0dp"
+                         android:text="Disponiblidad:"
+                         android:textColor="@color/wordCarte"
+                         android:textSize="14sp"
+                         android:textStyle="bold" />
+
+                     <TextView
+                         android:id="@+id/dispon"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="5dp"
+                         android:layout_marginTop="0dp"
+                         android:layout_marginRight="5dp"
+                         android:drawableLeft="@drawable/ic_sesseion_enable"
+                         android:textColor="@color/wordCarte"
+                         android:textSize="20sp"
+                         android:textStyle="bold" />
+
+                   <TextView
+                         android:id="@+id/location"
+                         android:layout_width="129dp"
+                         android:layout_height="22dp"
+                         android:layout_marginTop="10dp"
+                         android:text="Location"
+                         android:textColor="@color/wordCarte"
+                         android:textSize="17sp"
+                         android:textStyle="bold" />
+
+                 </LinearLayout>-->
+
+
+                <TextView
+                    android:id="@+id/id_edi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/wordBlack"
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>
+
+

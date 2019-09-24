@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".registro">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:paddingRight="10dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="12dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/wordBlack"
+                    android:textSize="20dp"
+                    android:text="Nombre Completo:" />
+
+                <EditText
+                    android:id="@+id/nombreR"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text=""
+                    android:textColor="@color/wordBlack" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/wordBlack"
+                    android:textSize="20dp"
+                    android:text="Correo electrónico" />
+
+                <EditText
+                    android:id="@+id/correR"
+                    android:layout_width="match_parent"
+                    android:inputType="textEmailAddress"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/wordBlack" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/wordBlack"
+                    android:textSize="20dp"
+                    android:text="Contraseña" />
+
+                <EditText
+                    android:id="@+id/contra1"
+                    android:layout_width="match_parent"
+                    android:inputType="textPassword"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/wordBlack" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/wordBlack"
+                    android:textSize="20dp"
+                    android:text="Repita su Contraseña" />
+
+                <EditText
+                    android:id="@+id/contra2"
+                    android:layout_width="match_parent"
+                    android:inputType="textPassword"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/wordBlack" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Spinner
+                    android:id="@+id/spinner_sexo"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:paddingLeft="10dp"
+                    android:layout_marginTop="18dp"
+                    android:entries="@array/sexo" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Spinner
+                    android:id="@+id/spinner_carrera"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:paddingLeft="10dp"
+                    android:layout_marginTop="18dp"
+                    android:entries="@array/carrera" />
+
+            </LinearLayout>
+
+          <!--  <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Spinner
+                    android:id="@+id/spinner_turno"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:paddingLeft="10dp"
+                    android:layout_marginTop="18dp"
+                    android:entries="@array/turno" />
+
+            </LinearLayout>-->
+
+
+            <RelativeLayout
+                android:layout_width="377dp"
+                android:layout_height="92dp"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/aceptar_registro"
+                    android:layout_width="313dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="13dp"
+                    android:background="@drawable/buttonstyle"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="Aceptar"
+                    android:textColor="@color/back"
+                    android:textSize="20sp"
+                    android:typeface="normal" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/yatengo"
+                    android:layout_width="match_parent"
+                    android:paddingLeft="10dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20dp"
+                    android:text="Ya tengo una cuenta"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
